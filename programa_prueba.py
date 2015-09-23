@@ -3,7 +3,7 @@
 # Form implementation generated from reading ui file 'programa_prueba.ui'
 #
 # Created by: PyQt4 UI code generator 4.11.4
-#comentario
+#
 # WARNING! All changes made in this file will be lost!
 
 from PyQt4 import QtCore, QtGui
@@ -25,18 +25,18 @@ except AttributeError:
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName(_fromUtf8("MainWindow"))
-        MainWindow.resize(419, 364)
+        MainWindow.resize(419, 155)
         self.centralwidget = QtGui.QWidget(MainWindow)
         self.centralwidget.setObjectName(_fromUtf8("centralwidget"))
         self.lineEdit = QtGui.QLineEdit(self.centralwidget)
-        self.lineEdit.setGeometry(QtCore.QRect(20, 290, 271, 21))
+        self.lineEdit.setGeometry(QtCore.QRect(20, 80, 271, 21))
         self.lineEdit.setText(_fromUtf8(""))
         self.lineEdit.setObjectName(_fromUtf8("lineEdit"))
         self.pushButton = QtGui.QPushButton(self.centralwidget)
-        self.pushButton.setGeometry(QtCore.QRect(320, 290, 75, 23))
+        self.pushButton.setGeometry(QtCore.QRect(300, 80, 75, 23))
         self.pushButton.setObjectName(_fromUtf8("pushButton"))
         self.label = QtGui.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(90, 200, 241, 41))
+        self.label.setGeometry(QtCore.QRect(80, 20, 241, 41))
         font = QtGui.QFont()
         font.setPointSize(16)
         self.label.setFont(font)
