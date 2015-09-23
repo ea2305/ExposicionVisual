@@ -1,5 +1,5 @@
 #Python Team :D
-
+#version 1.1
 import sys
 from PyQt4 import QtGui
 
