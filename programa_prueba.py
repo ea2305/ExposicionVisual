@@ -3,7 +3,7 @@
 # Form implementation generated from reading ui file 'programa_prueba.ui'
 #
 # Created by: PyQt4 UI code generator 4.11.4
-#
+#comentario
 # WARNING! All changes made in this file will be lost!
 
 from PyQt4 import QtCore, QtGui
