@@ -1,0 +1,13 @@
+#Python Team :D
+
+import sys
+from PyQt4 import QtGui
+
+app = QtGui.QApplication(sys.argv)
+
+elemento = QtGui.QWidget()
+elemento.resize(640,480)
+elemento.setWindowTitle('Hola mundo!')
+elemento.show()
+
+sys.exit(app.exec_())
