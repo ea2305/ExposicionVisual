@@ -1,12 +1,10 @@
 # -*- coding: utf-8 -*-
-
 # Form implementation generated from reading ui file 'programa_prueba.ui'
-#
 # Created by: PyQt4 UI code generator 4.11.4
-#
 # WARNING! All changes made in this file will be lost!
 
 from PyQt4 import QtCore, QtGui
+from NewLabel import NewLabel
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
