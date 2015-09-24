@@ -52,9 +52,8 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow", None))
         self.label.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:12pt; font-weight:600;\">Universidad Politécnica de Chiapas</span></p><p align=\"center\"><span style=\" font-size:12pt; font-weight:600;\">Ingeniería en Desarrollo de Software</span></p><p align=\"center\"><span style=\" font-size:12pt; font-weight:600;\">Exposicion de programa visual</span></p><p align=\"center\"><span style=\" font-size:10pt; font-weight:600;\">Programacion Visual</span></p><p align=\"center\"><span style=\" font-size:10pt; font-weight:600;\">Catedrático: Juan Carlos López Pimentel</span></p><p align=\"center\"><span style=\" font-size:10pt; font-weight:600;\">Integrantes:</span></p><p align=\"center\"><span style=\" font-weight:600; font-style:italic;\">Cruz Albores Elihu Alejandro</span></p><p align=\"center\"><span style=\" font-weight:600; font-style:italic;\">Farelo Toledo Luis Ángel</span></p><p align=\"center\"><span style=\" font-weight:600; font-style:italic;\">Ortíz Escobar Carlos Maximiliano</span></p><p align=\"center\"><br/></p></body></html>", None))
-        self.label_2.setText(_translate("MainWindow", "<html><head/><body><p><img src=\":/img/new_upchiapas.png\"/></p></body></html>", None))
+        self.label_2.setText(_translate("MainWindow", "<html><head/><body><p><img src=\":/new_upchiapas.png\"/></p></body></html>", None))
 
-import image_rc
 import image_size_rc
 
 if __name__ == "__main__":

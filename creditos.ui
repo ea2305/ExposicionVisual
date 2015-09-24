@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="image_size.qrc">
+   <iconset>
     <normaloff>:/img/new_upchiapas.png</normaloff>:/img/new_upchiapas.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
@@ -41,7 +41,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/img/new_upchiapas.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/new_upchiapas.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
   </widget>
@@ -58,8 +58,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="image.qrc"/>
-  <include location="image_size.qrc"/>
+  <include location="img/image_size.qrc"/>
  </resources>
  <connections/>
 </ui>
