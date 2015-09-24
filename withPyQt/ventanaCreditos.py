@@ -56,6 +56,10 @@ class Ui_DialogCreditos(object):
         self.pushButton_5 = QtGui.QPushButton(DialogCreditos)
         self.pushButton_5.setGeometry(QtCore.QRect(220, 70, 151, 23))
         self.pushButton_5.setObjectName(_fromUtf8("pushButton_5"))
+        self.labelMensjae = QtGui.QLabel(DialogCreditos)
+        self.labelMensjae.setGeometry(QtCore.QRect(120, 252, 171, 41))
+        self.labelMensjae.setText(_fromUtf8(""))
+        self.labelMensjae.setObjectName(_fromUtf8("labelMensjae"))
 
         self.retranslateUi(DialogCreditos)
         QtCore.QMetaObject.connectSlotsByName(DialogCreditos)

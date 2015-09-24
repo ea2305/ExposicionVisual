@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>647</width>
-    <height>342</height>
+    <height>426</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -57,9 +57,30 @@
     </rect>
    </property>
   </widget>
+  <widget class="QLabel" name="ThankYou">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>360</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Gracias por jugar nuestro juego!!</string>
+   </property>
+  </widget>
  </widget>
  <resources>
-  <include location="../img/image_size.qrc"/>
+  <include location="img/image_size.qrc"/>
  </resources>
  <connections/>
 </ui>
