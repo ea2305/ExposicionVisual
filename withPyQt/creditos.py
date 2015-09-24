@@ -43,6 +43,8 @@ class Ui_MainWindow(object):
         self.label_2 = QtGui.QLabel(self.centralwidget)
         self.label_2.setGeometry(QtCore.QRect(410, 20, 151, 141))
         self.label_2.setObjectName(_fromUtf8("label_2"))
+        self.pixmap = QtGui.QPixmap('https://i.stack.imgur.com/zJINz.jpg?s=32&g=1')
+        self.label_2.setPixmap(self.pixmap)
         self.calendarWidget = QtGui.QCalendarWidget(self.centralwidget)
         self.calendarWidget.setGeometry(QtCore.QRect(340, 170, 271, 141))
         self.calendarWidget.setObjectName(_fromUtf8("calendarWidget"))
