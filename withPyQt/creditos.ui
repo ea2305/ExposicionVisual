@@ -76,7 +76,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="img/image_size.qrc"/>
+  <include location="../img/image_size.qrc"/>
  </resources>
  <connections/>
 </ui>
