@@ -22,11 +22,11 @@ except AttributeError:
     def _translate(context, text, disambig):
         return QtGui.QApplication.translate(context, text, disambig)
 
-class Ui_MainWindow(object):
-    def setupUi(self, MainWindow):
-        MainWindow.setObjectName(_fromUtf8("MainWindow"))
-        MainWindow.resize(219, 182)
-        self.centralwidget = QtGui.QWidget(MainWindow)
+class Ui_myContainer(object):
+    def setupUi(self, myContainer):
+        myContainer.setObjectName(_fromUtf8("myContainer"))
+        myContainer.resize(219, 182)
+        self.centralwidget = QtGui.QWidget(myContainer)
         self.centralwidget.setObjectName(_fromUtf8("centralwidget"))
         self.label = QtGui.QLabel(self.centralwidget)
         self.label.setGeometry(QtCore.QRect(70, 20, 91, 31))
@@ -37,31 +37,31 @@ class Ui_MainWindow(object):
         self.pushButton = QtGui.QPushButton(self.centralwidget)
         self.pushButton.setGeometry(QtCore.QRect(70, 90, 91, 23))
         self.pushButton.setObjectName(_fromUtf8("pushButton"))
-        MainWindow.setCentralWidget(self.centralwidget)
-        self.menubar = QtGui.QMenuBar(MainWindow)
+        myContainer.setCentralWidget(self.centralwidget)
+        self.menubar = QtGui.QMenuBar(myContainer)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 219, 21))
         self.menubar.setObjectName(_fromUtf8("menubar"))
-        MainWindow.setMenuBar(self.menubar)
-        self.statusbar = QtGui.QStatusBar(MainWindow)
+        myContainer.setMenuBar(self.menubar)
+        self.statusbar = QtGui.QStatusBar(myContainer)
         self.statusbar.setObjectName(_fromUtf8("statusbar"))
-        MainWindow.setStatusBar(self.statusbar)
+        myContainer.setStatusBar(self.statusbar)
 
-        self.retranslateUi(MainWindow)
+        self.retranslateUi(myContainer)
         QtCore.QObject.connect(self.pushButton, QtCore.SIGNAL(_fromUtf8("clicked()")), self.lineEdit.clear)
-        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(myContainer)
 
-    def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow", None))
-        self.label.setText(_translate("MainWindow", "Ingrese su nombre", None))
-        self.pushButton.setText(_translate("MainWindow", "Limpiar", None))
+    def retranslateUi(self, myContainer):
+        myContainer.setWindowTitle(_translate("myContainer", "MainWindow", None))
+        self.label.setText(_translate("myContainer", "Ingrese su nombre", None))
+        self.pushButton.setText(_translate("myContainer", "Limpiar", None))
 
 
 if __name__ == "__main__":
     import sys
     app = QtGui.QApplication(sys.argv)
-    MainWindow = QtGui.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
+    myContainer = QtGui.QMainWindow()
+    ui = Ui_myContainer()
+    ui.setupUi(myContainer)
+    myContainer.show()
     sys.exit(app.exec_())
 
