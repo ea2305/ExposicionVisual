@@ -1,2 +1,2 @@
 @echo off
-call pyuic4 -x creditos.ui -o creditos.py
+call pyuic4 -x newCredits.ui -o newCredits.py

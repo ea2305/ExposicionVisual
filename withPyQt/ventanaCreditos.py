@@ -25,7 +25,7 @@ except AttributeError:
 class Ui_DialogCreditos(object):
     def setupUi(self, DialogCreditos):
         DialogCreditos.setObjectName(_fromUtf8("DialogCreditos"))
-        DialogCreditos.resize(390, 300)
+        DialogCreditos.resize(390, 359)
         self.pushButton = QtGui.QPushButton(DialogCreditos)
         self.pushButton.setGeometry(QtCore.QRect(20, 10, 71, 23))
         self.pushButton.setObjectName(_fromUtf8("pushButton"))
@@ -57,9 +57,23 @@ class Ui_DialogCreditos(object):
         self.pushButton_5.setGeometry(QtCore.QRect(220, 70, 151, 23))
         self.pushButton_5.setObjectName(_fromUtf8("pushButton_5"))
         self.labelMensjae = QtGui.QLabel(DialogCreditos)
-        self.labelMensjae.setGeometry(QtCore.QRect(120, 252, 171, 41))
+        self.labelMensjae.setGeometry(QtCore.QRect(150, 252, 131, 41))
         self.labelMensjae.setText(_fromUtf8(""))
         self.labelMensjae.setObjectName(_fromUtf8("labelMensjae"))
+        self.labelIngreseNombre = QtGui.QLabel(DialogCreditos)
+        self.labelIngreseNombre.setGeometry(QtCore.QRect(10, 330, 151, 16))
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        self.labelIngreseNombre.setFont(font)
+        self.labelIngreseNombre.setObjectName(_fromUtf8("labelIngreseNombre"))
+        self.lineNickname = QtGui.QLineEdit(DialogCreditos)
+        self.lineNickname.setGeometry(QtCore.QRect(160, 329, 161, 21))
+        self.lineNickname.setObjectName(_fromUtf8("lineNickname"))
+        self.pushButton_6 = QtGui.QPushButton(DialogCreditos)
+        self.pushButton_6.setGeometry(QtCore.QRect(330, 322, 41, 31))
+        self.pushButton_6.setObjectName(_fromUtf8("pushButton_6"))
 
         self.retranslateUi(DialogCreditos)
         QtCore.QMetaObject.connectSlotsByName(DialogCreditos)
@@ -76,4 +90,16 @@ class Ui_DialogCreditos(object):
         self.labelTitulo.setText(_translate("DialogCreditos", "<html><head/><body><p><span style=\" font-size:16pt;\">Desea iniciar?</span></p></body></html>", None))
         self.label.setText(_translate("DialogCreditos", "<html><head/><body><p><span style=\" font-size:16pt; font-weight:600;\">0</span></p></body></html>", None))
         self.pushButton_5.setText(_translate("DialogCreditos", "Start/Restart", None))
+        self.labelIngreseNombre.setText(_translate("DialogCreditos", "Ingrese su nickname: ", None))
+        self.pushButton_6.setText(_translate("DialogCreditos", "Ok", None))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtGui.QApplication(sys.argv)
+    DialogCreditos = QtGui.QDialog()
+    ui = Ui_DialogCreditos()
+    ui.setupUi(DialogCreditos)
+    DialogCreditos.show()
+    sys.exit(app.exec_())
 

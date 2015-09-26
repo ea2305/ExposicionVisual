@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>647</width>
-    <height>426</height>
+    <width>651</width>
+    <height>440</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -31,7 +31,7 @@
     </font>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Universidad Politécnica de Chiapas&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Ingeniería en Desarrollo de Software&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Exposicion de programa visual&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Programacion Visual&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Catedrático: Juan Carlos López Pimentel&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:400; text-decoration: underline;&quot;&gt;Integrantes:&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Cruz Albores Elihu Alejandro&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Farelo Toledo Luis Ángel&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Ortíz Escobar Carlos Maximiliano&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; color:#00007f;&quot;&gt;Universidad Politécnica de Chiapas&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#00007f;&quot;&gt;Ingeniería en Desarrollo de Software&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#00007f;&quot;&gt;Exposicion de programa visual&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#00007f;&quot;&gt;Programacion Visual&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#00007f;&quot;&gt;Catedrático: Juan Carlos López Pimentel&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:400; text-decoration: underline; color:#00007f;&quot;&gt;Integrantes:&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic; color:#00007f;&quot;&gt;Cruz Albores Elihu Alejandro&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic; color:#00007f;&quot;&gt;Farelo Toledo Luis Ángel&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic; color:#00007f;&quot;&gt;Ortíz Escobar Carlos Maximiliano&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
@@ -60,10 +60,10 @@
   <widget class="QLabel" name="ThankYou">
    <property name="geometry">
     <rect>
-     <x>170</x>
-     <y>360</y>
-     <width>361</width>
-     <height>41</height>
+     <x>10</x>
+     <y>320</y>
+     <width>631</width>
+     <height>101</height>
     </rect>
    </property>
    <property name="font">
@@ -75,7 +75,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Gracias por jugar nuestro juego!!</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-style:italic; text-decoration: underline; color:#000000;&quot;&gt;Game over &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Gracias por jugar nuestro juego!!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
  </widget>

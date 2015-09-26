@@ -43,8 +43,6 @@ class Ui_MainWindow(object):
         self.label_2 = QtGui.QLabel(self.centralwidget)
         self.label_2.setGeometry(QtCore.QRect(410, 20, 151, 141))
         self.label_2.setObjectName(_fromUtf8("label_2"))
-        self.pixmap = QtGui.QPixmap('https://i.stack.imgur.com/zJINz.jpg?s=32&g=1')
-        self.label_2.setPixmap(self.pixmap)
         self.calendarWidget = QtGui.QCalendarWidget(self.centralwidget)
         self.calendarWidget.setGeometry(QtCore.QRect(340, 170, 271, 141))
         self.calendarWidget.setObjectName(_fromUtf8("calendarWidget"))
@@ -65,7 +63,7 @@ class Ui_MainWindow(object):
         self.label.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt;\">Universidad Politécnica de Chiapas</span></p><p align=\"center\"><span style=\" font-size:12pt;\">Ingeniería en Desarrollo de Software</span></p><p align=\"center\"><span style=\" font-size:12pt;\">Exposicion de programa visual</span></p><p align=\"center\">Programacion Visual</p><p align=\"center\">Catedrático: Juan Carlos López Pimentel</p><p align=\"center\"><span style=\" font-weight:400; text-decoration: underline;\">Integrantes:</span></p><p align=\"center\"><span style=\" font-style:italic;\">Cruz Albores Elihu Alejandro</span></p><p align=\"center\"><span style=\" font-style:italic;\">Farelo Toledo Luis Ángel</span></p><p align=\"center\"><span style=\" font-style:italic;\">Ortíz Escobar Carlos Maximiliano</span></p><p align=\"center\"><br/></p></body></html>", None))
         self.label_2.setText(_translate("MainWindow", "<html><head/><body><p><img src=\":/new_upchiapas.png\"/></p></body></html>", None))
 
-##import image_size_rc
+import image_size_rc
 
 if __name__ == "__main__":
     import sys
